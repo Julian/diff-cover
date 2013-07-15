@@ -97,7 +97,7 @@ arguments:
 
 .. code:: bash
 
-	diff-cover coverage1.xml [coverage2.xml 
+	diff-cover coverage1.xml coverage2.xml 
 
 You can also generate an HTML version of the report:
 
