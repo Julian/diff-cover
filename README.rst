@@ -90,6 +90,15 @@ need to use different commands to generate the coverage XML report.
 This will compare the current ``git`` branch to ``origin/master`` and print
 the diff coverage report to the console.
 
+In the case that one has multiple xml reports form multiple test suites, you 
+can get a combined coverage report (a line is counted  as covered if it is 
+covered in ANY of the xml reports) by running ``diff-cover`` with multiple 
+arguments:
+
+.. code:: bash
+
+	diff-cover coverage1.xml [coverage2.xml 
+
 You can also generate an HTML version of the report:
 
 .. code:: bash
